@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Fleuriste du Coin</string>
+    <string name="home"> Accueil </string>
+    <string name="boutiques"> Boutiques </string>
+
+    <string name="logo"> logo </string>
+
+    <string name="title_activity_liste_boutiques">MainActivity</string>
+
+    <!-- sur home -->
+    <string name="bienvenue">"Bienvenue sur votre application préférée sur les fleurs , Fleuriste Du Coin ! Ici vous pourrez voir les magasins où se trouvent vos fleurs préféréees."</string>
+    <string name="contact_us">Nous contacter </string>
+
+    <!-- sur la page contact -->
+    <string name="contact"> Vous voulez nous contacter ? </string>
+    <string name="yoursubject"> L\' objet de votre message :  </string>
+    <string name="sujet"> Tapez l\'objet de votre message </string>
+    <string name="envoyezmessage">  Votre message :  </string>
+    <string name="message1"> Tapez votre message ici </string>
+    <string name="send"> Envoyez</string>
+
+    <!-- sur fragment_liste -->
+    <string name="liste_boutiques"> Liste des boutiques de fleurs dans le coin </string>
+    <string name="liste_fleurs"> Liste des fleurs dans le coin  </string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="title_activity_login"> Se connecter </string>
+    <string name="prompt_email"> Ecrivez votre adresse mail </string>
+    <string name="prompt_password"> Ecrivez un mot de passe</string>
+    <string name="action_sign_in"> Se connecter </string>
+    <string name="seco"> Entrez votre adresse et un mot de passe à retenir puis vous recevrez un code promotionnel à utiliser dans le magasin de votre choix .</string>
+    <string name="welcome">" Bienvenue vous êtes connectés ! \n Voici le code promo à présenter en magasin : 0000 valable une seule fois"</string>
+    <string name="invalid_username"> Pseudo/Email pas valide </string>
+    <string name="invalid_password"> Le mot de passe doit contenir 8 caractères</string>
+    <string name="login_failed">" Connexion échouée "</string>
+
+
+</resources>
