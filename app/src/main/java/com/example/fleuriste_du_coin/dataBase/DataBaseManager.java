@@ -44,7 +44,7 @@ public class DataBaseManager extends SQLiteOpenHelper {
 
     }
 
-    public void insertBoutique ( String name , String city , String article ){
+    public void insertBoutique( String name , String city , String article ){
 
         name = name.replace( "'", "''" );
 
@@ -70,3 +70,5 @@ public class DataBaseManager extends SQLiteOpenHelper {
         return boutiques;
     }
 }
+
+

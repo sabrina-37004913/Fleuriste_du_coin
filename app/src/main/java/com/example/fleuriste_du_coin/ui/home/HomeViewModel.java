@@ -11,7 +11,7 @@ public class HomeViewModel extends ViewModel {
     public HomeViewModel() {
         mText = new MutableLiveData<>();
 
-        mText.setValue("Vous êtes sur le deuxième onglet , Liste des boutiques pour l'instant vide ! L'application est en construction . Veuillez retouner sur l'accueil s'il vous plaît");
+        mText.setValue("Vous êtes sur le deuxième onglet, Liste des boutiques pour l'instant vide ! L'application est en construction . Veuillez retouner à l'accueil.");
     }
 
     public LiveData<String> getText() {

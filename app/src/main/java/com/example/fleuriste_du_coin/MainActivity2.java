@@ -7,6 +7,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
+import com.example.fleuriste_du_coin.dataBase.DataBaseManager;
+import com.example.fleuriste_du_coin.object.Boutique;
 import com.example.fleuriste_du_coin.ui.login.LoginActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -19,6 +21,8 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
+import java.util.List;
+
 public class MainActivity2 extends AppCompatActivity {
     Context context;
 
@@ -28,6 +32,8 @@ public class MainActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
         context=this;
+        TextView BoutiquesView;
+        DataBaseManager database;
 
         BottomNavigationView navView = findViewById(R.id.nav_view);
 
@@ -56,12 +62,18 @@ public class MainActivity2 extends AppCompatActivity {
             }
         });
 
-       /* AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.navigation_home, R.id.navigation_dashboard)
-                .build();
-        NavController navController = Navigation.findNavController(this, R.id.navigation_home);
-        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
-        NavigationUI.setupWithNavController(navView, navController);*/
+
+        //  base de donnée qui ne marche pas
+        BoutiquesView = (TextView) findViewById( R.id.BoutiquesView );
+        database = new DataBaseManager( context );
+
+        // afficher toutes les boutiques
+        List<Boutique> boutiques = database.read();
+        for ( Boutique boutique : boutiques ) {
+            BoutiquesView.append( boutique.toString() + " TEST ???\n");
+        }
+
+        database.close();
     }
 
     // retour en arrière avec la flèche

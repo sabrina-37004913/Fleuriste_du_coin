@@ -16,7 +16,7 @@ public class Boutique {
 
     }
 
-    public Boutique(){}
+    public Boutique(int anInt, String string, String cursorString, String s, String string1){}
 
     public long getID() {
         return id;
@@ -33,7 +33,6 @@ public class Boutique {
     public String getCity() {
         return city;
     }
-
 
     public void setName(String name) {
         this.name = name;

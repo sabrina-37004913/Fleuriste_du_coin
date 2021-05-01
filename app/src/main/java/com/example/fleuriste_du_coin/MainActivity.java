@@ -27,8 +27,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         contact = findViewById(R.id.contact_us);
         context = this;
-        //TextView BoutiquesView;
-        //DataBaseManager databaseManager;
+
 
         //BottomNavigation
         BottomNavigationView bottomNavView = findViewById(R.id.bottom_navigation);
@@ -46,27 +45,12 @@ public class MainActivity extends AppCompatActivity {
             }
             return false;
         });
+
+
     }
 
-        // un test de base de donnée qui fait crasher l'application
-/*
-        BoutiquesView = (TextView) findViewById( R.id.BoutiquesView );
-        databaseManager = new DataBaseManager( context );
 
-        databaseManager.insertBoutique( " La féerie des fleurs " , "Saint-André" , "Lilas" );
-        databaseManager.insertBoutique( " Interflora " , "Saint-Suzanne" , " Roses " );
-
-        // afficher toutes les boutiques
-        List<Boutique> boutiques = databaseManager.read();
-        for ( Boutique boutique : boutiques ) {
-            BoutiquesView.append( boutique.toString() + "\n");
-        }
-
-        databaseManager.close();
-    }
-    */
-
-        //fonction quand on clique sur le bouton nous contacter c'est censé rediriger vers la page
+    //fonction quand on clique sur le bouton nous contacter c'est censé rediriger vers la page
         // mais la page contact fait crasher l'application
         public void contacter (View view){
             Intent intent = new Intent(context, Message.class);

@@ -50,7 +50,7 @@ public class Contact extends AppCompatActivity {
             startActivity(Intent.createChooser(email,"Veuillez choisir une application"));
         }
         catch (Exception e){
-            // message d'erreir s'il y a un problème
+            // message d'erretr s'il y a un problème
             Toast.makeText(this,e.getMessage(), Toast.LENGTH_SHORT).show();
         }
     }

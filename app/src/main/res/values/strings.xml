@@ -22,7 +22,6 @@
     <!-- sur fragment_liste -->
     <string name="liste_boutiques"> Liste des boutiques de fleurs dans le coin </string>
     <string name="liste_fleurs"> Liste des fleurs dans le coin  </string>
-    <string name="title_activity_main2">MainActivity</string>
     <string name="title_activity_login"> Se connecter </string>
     <string name="prompt_email"> Ecrivez votre adresse mail </string>
     <string name="prompt_password"> Ecrivez un mot de passe</string>
