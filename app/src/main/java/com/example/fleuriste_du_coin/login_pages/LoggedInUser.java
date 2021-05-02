@@ -1,4 +1,4 @@
-package com.example.fleuriste_du_coin.data.model;
+package com.example.fleuriste_du_coin.login_pages;
 
 public class LoggedInUser {
 

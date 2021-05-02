@@ -1,4 +1,4 @@
-package com.example.fleuriste_du_coin.ui.login;
+package com.example.fleuriste_du_coin.login_pages;
 
 import android.app.Activity;
 
@@ -25,11 +25,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.fleuriste_du_coin.Premiere_page;
 import com.example.fleuriste_du_coin.R;
-import com.example.fleuriste_du_coin.ui.liste_b.BoutiquesFragment;
-import com.example.fleuriste_du_coin.ui.login.LoginViewModel;
-import com.example.fleuriste_du_coin.ui.login.LoginViewModelFactory;
 
 public class LoginActivity extends AppCompatActivity {
 

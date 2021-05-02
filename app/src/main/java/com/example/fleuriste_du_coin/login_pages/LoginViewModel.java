@@ -1,4 +1,4 @@
-package com.example.fleuriste_du_coin.ui.login;
+package com.example.fleuriste_du_coin.login_pages;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
@@ -6,9 +6,6 @@ import androidx.lifecycle.ViewModel;
 
 import android.util.Patterns;
 
-import com.example.fleuriste_du_coin.data.LoginRepository;
-import com.example.fleuriste_du_coin.data.Result;
-import com.example.fleuriste_du_coin.data.model.LoggedInUser;
 import com.example.fleuriste_du_coin.R;
 
 public class LoginViewModel extends ViewModel {

@@ -1,11 +1,8 @@
-package com.example.fleuriste_du_coin.ui.login;
+package com.example.fleuriste_du_coin.login_pages;
 
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.annotation.NonNull;
-
-import com.example.fleuriste_du_coin.data.LoginDataSource;
-import com.example.fleuriste_du_coin.data.LoginRepository;
 
 /**
  * ViewModel provider factory to instantiate LoginViewModel.

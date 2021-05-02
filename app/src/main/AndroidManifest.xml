@@ -9,10 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Fleuriste_du_coin">
-        <activity android:name=".ui.login.Screen"></activity>
+        <activity android:name=".login_pages.Screen"></activity>
         <activity android:name=".sins" />
         <activity
-            android:name=".ui.login.LoginActivity"
+            android:name=".login_pages.LoginActivity"
             android:label="@string/title_activity_login" />
         <activity android:name=".Message" />
         <activity android:name=".contact" />

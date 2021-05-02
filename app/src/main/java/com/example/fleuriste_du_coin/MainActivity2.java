@@ -9,17 +9,12 @@ import android.widget.TextView;
 
 import com.example.fleuriste_du_coin.dataBase.DataBaseManager;
 import com.example.fleuriste_du_coin.object.Boutique;
-import com.example.fleuriste_du_coin.ui.login.LoginActivity;
+import com.example.fleuriste_du_coin.login_pages.LoginActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
 
 import java.util.List;
 
@@ -70,10 +65,11 @@ public class MainActivity2 extends AppCompatActivity {
         // afficher toutes les boutiques
         List<Boutique> boutiques = database.read();
         for ( Boutique boutique : boutiques ) {
-            BoutiquesView.append( boutique.toString() + " TEST ???\n");
+            BoutiquesView.append( boutique.toString() + "\n");
         }
 
         database.close();
+
     }
 
     // retour en arrière avec la flèche

@@ -1,6 +1,4 @@
-package com.example.fleuriste_du_coin.data;
-
-import com.example.fleuriste_du_coin.data.model.LoggedInUser;
+package com.example.fleuriste_du_coin.login_pages;
 
 /**
  * Class that requests authentication and user information from the remote data source and

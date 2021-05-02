@@ -1,14 +1,8 @@
-package com.example.fleuriste_du_coin.ui.home;
-
-import android.content.Intent;
+package com.example.fleuriste_du_coin.home_frag;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
-
-import com.example.fleuriste_du_coin.ui.login.LoginActivity;
-
-import static androidx.core.content.ContextCompat.startActivity;
 
 public class HomeViewModel extends ViewModel {
 

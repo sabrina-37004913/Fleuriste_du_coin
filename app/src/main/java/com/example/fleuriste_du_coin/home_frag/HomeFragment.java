@@ -1,4 +1,4 @@
-package com.example.fleuriste_du_coin.ui.home;
+package com.example.fleuriste_du_coin.home_frag;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,8 +10,9 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
+
 import com.example.fleuriste_du_coin.R;
-import com.example.fleuriste_du_coin.ui.liste_b.BoutiqueViewModel;
+import com.example.fleuriste_du_coin.liste_bou_frag.BoutiqueViewModel;
 
 public class HomeFragment extends Fragment {
 
@@ -30,5 +31,7 @@ public class HomeFragment extends Fragment {
             }
         });
         return root;
+
+
     }
 }

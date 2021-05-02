@@ -1,4 +1,4 @@
-package com.example.fleuriste_du_coin.ui.liste_b;
+package com.example.fleuriste_du_coin.liste_bou_frag;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

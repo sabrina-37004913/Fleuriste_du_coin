@@ -1,4 +1,4 @@
-package com.example.fleuriste_du_coin.data;
+package com.example.fleuriste_du_coin.login_pages;
 
 /**
  * A generic class that holds a result success w/ data or an error exception.

@@ -7,13 +7,13 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.example.fleuriste_du_coin.ui.home.HomeFragment"
+        android:name="com.example.fleuriste_du_coin.home_frag.HomeFragment"
         android:label="@string/home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_liste_b"
-        android:name="com.example.fleuriste_du_coin.ui.liste_b.BoutiquesFragment"
+        android:name="com.example.fleuriste_du_coin.liste_bou_frag.BoutiquesFragment"
         android:label="@string/boutiques"
         tools:layout="@layout/fragment_liste_b" />
 

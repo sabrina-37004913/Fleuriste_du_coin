@@ -1,4 +1,4 @@
-package com.example.fleuriste_du_coin.ui.login;
+package com.example.fleuriste_du_coin.login_pages;
 
 /**
  * Class exposing authenticated user details to the UI.

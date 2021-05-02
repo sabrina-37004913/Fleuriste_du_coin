@@ -16,6 +16,16 @@ public class Boutique {
 
     }
 
+    @Override
+    public String toString() {
+        return "Boutique{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", article ='" + article + '\'' +
+                ", city ='" + city + '\'' +
+                '}';
+    }
+
     public Boutique(int anInt, String string, String cursorString, String s, String string1){}
 
     public long getID() {
@@ -50,3 +60,4 @@ public class Boutique {
         this.id=id;
     }
 }
+
