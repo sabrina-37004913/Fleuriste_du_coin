@@ -39,7 +39,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/contact_us"
+        android:id="@+id/contact"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="559dp"

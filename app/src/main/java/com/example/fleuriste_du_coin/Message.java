@@ -36,6 +36,15 @@ public class Message extends AppCompatActivity {
             mySendButton.setOnClickListener(v -> sendMail());
         }
 
+        public boolean onOptionsItemSelected(MenuItem item) {
+            switch (item.getItemId()) {
+                case android.R.id.home:
+                    super.onBackPressed();
+                    break;
+            }
+        return super.onOptionsItemSelected(item);
+        }
+
         public void sendMail(){
             String[] mails = { "nomprenom@gmail.com" };
 
@@ -55,15 +64,4 @@ public class Message extends AppCompatActivity {
                 Toast.makeText(this,e.getMessage(), Toast.LENGTH_SHORT).show();
             }
         }
-
-    // retour en arrière avec la flèche
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case android.R.id.home:
-                super.onBackPressed();
-                break;
-        }
-        return super.onOptionsItemSelected(item);
     }
-
-}

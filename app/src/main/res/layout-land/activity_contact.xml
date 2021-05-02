@@ -5,8 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:padding="20dp"
-    tools:context=".MainActivity">
+    android:padding="20dp">
 
 
     <TextView
@@ -31,7 +30,8 @@
         android:hint="@string/sujet"
         android:fontFamily="@font/rainyhearts"
         android:textSize="18sp"
-        android:inputType="textEmailSubject"/>
+        android:inputType="textEmailSubject"
+        tools:ignore="Autofill,TextFields" />
 
     <TextView
         android:layout_width="match_parent"
@@ -49,7 +49,8 @@
         android:fontFamily="@font/rainyhearts"
         android:textSize="18sp"
         android:lines="2"
-        android:gravity="start|top"/>
+        android:gravity="start|top"
+        tools:ignore="Autofill,TextFields" />
 
     <Button
         android:id="@+id/contact_us"
