@@ -12,7 +12,7 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/navigation_liste_b"
         android:name="com.example.fleuriste_du_coin.ui.liste_b.BoutiquesFragment"
         android:label="@string/boutiques"
         tools:layout="@layout/fragment_liste_b" />

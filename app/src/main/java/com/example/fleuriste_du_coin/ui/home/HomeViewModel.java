@@ -1,8 +1,14 @@
 package com.example.fleuriste_du_coin.ui.home;
 
+import android.content.Intent;
+
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
+
+import com.example.fleuriste_du_coin.ui.login.LoginActivity;
+
+import static androidx.core.content.ContextCompat.startActivity;
 
 public class HomeViewModel extends ViewModel {
 
@@ -11,7 +17,7 @@ public class HomeViewModel extends ViewModel {
     public HomeViewModel() {
         mText = new MutableLiveData<>();
 
-        mText.setValue("Vous êtes sur le deuxième onglet, Liste des boutiques pour l'instant vide ! L'application est en construction . Veuillez retouner à l'accueil.");
+        mText.setValue("L'application est en construction . Merci de retouner à l'accueil.");
     }
 
     public LiveData<String> getText() {

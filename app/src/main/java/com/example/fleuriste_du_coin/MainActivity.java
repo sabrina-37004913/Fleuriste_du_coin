@@ -50,8 +50,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    //fonction quand on clique sur le bouton nous contacter c'est censé rediriger vers la page
-        // mais la page contact fait crasher l'application
         public void contacter (View view){
             Intent intent = new Intent(context, Message.class);
             startActivity(intent);

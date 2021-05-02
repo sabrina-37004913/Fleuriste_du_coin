@@ -63,7 +63,7 @@ public class MainActivity2 extends AppCompatActivity {
         });
 
 
-        //  base de donnée qui ne marche pas
+        //  base de donnée qui ne s'affiche pas ?
         BoutiquesView = (TextView) findViewById( R.id.BoutiquesView );
         database = new DataBaseManager( context );
 

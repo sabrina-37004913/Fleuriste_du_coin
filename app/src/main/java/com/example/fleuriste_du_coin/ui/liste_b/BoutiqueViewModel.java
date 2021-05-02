@@ -10,7 +10,7 @@ public class BoutiqueViewModel extends ViewModel {
 
     public BoutiqueViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is dashboard fragment");
+        mText.setValue(" Vous êtes bien sur l'onglet de la liste des boutiques ");
     }
 
     public LiveData<String> getText() {
